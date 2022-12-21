@@ -1,0 +1,69 @@
+.proj{
+    background: #F0F8FF;
+  }
+  .container{
+    background-color: black;
+    width: 20%;
+  }
+  .weeek{
+    color: white;
+  }
+  /* pdf*/
+  .button{
+   margin-left: 5%;
+  }
+   .button button{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background: red;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+  }
+  .button button a{
+    color: white;
+  }
+  
+   .button button:hover{
+    border-color: red;
+    background-color:blue;
+    color: white;
+  }
+  .button h1{
+    color: black;
+    font-weight: 700;
+   
+  }
+  
+.aud {
+  font-size: 250%;
+  font-weight: 700;
+  color: black;
+ 
+}
+.audi{
+  padding-left: 5%;
+}
+  /* footer start */
+footer{
+  background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(78, 127, 218),blue);
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+footer .text span{
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+footer .text span a{
+  font-weight: 500;
+  color: #FFF;
+}
+footer .text span a:hover{
+  text-decoration: underline;
+}
